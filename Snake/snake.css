@@ -1,0 +1,13 @@
+/*CSS-File for Snake*/
+
+#PlayingBoard {                             /* ADDED */
+    background-color: lightgrey;        /* ADDED */
+}  
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    font-weight: bold;
+}

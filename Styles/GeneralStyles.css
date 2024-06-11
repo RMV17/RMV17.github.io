@@ -1,0 +1,104 @@
+
+body {
+  font-style:normal;
+  font-family:Rockwell,Arial,Calibri;
+  width: 90%; height:default;
+}
+
+h1 {
+  color:blue;background-color:red;
+  outline: thick solid black;
+  font-size: 50px;
+  } 
+
+h2 {
+  color:red;
+}
+
+h2 a {color:red}
+
+.maillink:hover {
+  color:lime;
+}
+
+.video {
+  height: 300px;
+  width: 540px;
+}
+
+a:hover {
+  color:#ffdd00;
+}
+
+.txt {
+  color:black
+}
+
+.tab {
+  font-style:normal;
+  font-family:Rockwell,Arial,Calibri;
+  width: 90%; height:default;
+}
+
+.subtitle {
+  font-size: large;
+}
+
+img {
+  height: 300px;
+  width: auto
+  }
+
+    /* Dropdownmenü: */
+    .Menüstyle {
+      background-color: blue;
+      color: white;
+      font-size: 50px;
+      border:none;
+      cursor: pointer;
+    }
+    
+    /* "Container" <div> - für Positionierung benötigt */
+    .Menü {
+      position:relative;
+      display: inline-block;
+    }
+    
+    /* Dropdowninhalt (Versteckt bis darübergehovert) */
+    .Menüinhalt {
+      display: none;
+      position: absolute;
+      background-color: white;
+      min-width: 220px;
+    }
+    
+    /* Links innerhalb des Menüs */
+    .Menüinhalt a {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: block;
+    }
+  
+    /* Änderung des Aussehens des Menüpunkts bei hover */
+    .Menüinhalt a:hover {
+      color:red;
+      background-color:lightgrey;    
+      font-weight: bold;
+    }
+
+    /* Menü bei hover anzeigen */
+    .Menü:hover .Menüinhalt {
+      display: block;
+    }
+    
+    /* Hintergrund des Menüblocks bei hover verändern */
+    .Menü:hover .Menüstyle {
+      background-color: lightskyblue;
+    }
+
+#AktuelleSeite {
+  background-color:red;
+  color:blue;
+}
+
